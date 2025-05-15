@@ -126,7 +126,7 @@ def check_event(msg_url, event_url):
     event_tmp_list = [0]
 
     while True:
-        event = request_event(event_url, auth)
+        event = request_event(event_url, obico_token)
         event_type = event["event_type"]
         event_class = event["event_class"]
         event_title = event["event_title"]
