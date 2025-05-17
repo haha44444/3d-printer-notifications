@@ -13,7 +13,7 @@ def translate_event(event_type, event_class, event_title, event_text, image_url)
                 }
 
     elif event_type == "ENDED":
-        if event_type == "SUCCESS":
+        if event_class == "SUCCESS":
             return {
                 "event_type": event_type,
                 "event_class": event_class,
@@ -21,7 +21,7 @@ def translate_event(event_type, event_class, event_title, event_text, image_url)
                 "event_text": event_text,
                 "image_url": image_url
             }
-        elif event_type == "WARNING":
+        elif event_class == "WARNING":
             return {
                 "event_type": event_type,
                 "event_class": event_class,
