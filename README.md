@@ -58,3 +58,5 @@ nohup python printer_monitor.py > monitor.log 2>&1 &
 [Bark](https://github.com/Finb/Bark)
 
 [Obico](https://github.com/TheSpaghettiDetective)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=haha44444/3d-printer-notifications&type=Date)](https://star-history.com/#haha44444/3d-printer-notifications)
